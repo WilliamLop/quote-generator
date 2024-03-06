@@ -17,8 +17,8 @@ export default function Home() {
       <>
         <Header handleRandomButtonClick={handleRandomButtonClick} />
 
-        <main className="w-[90%] mx-auto h-[700px]
-        py-4 grid place-items-center">
+        <main className="w-[90%] mx-auto justify-center h-full
+        py-4 grid items-center">
 
           <div className="h-1/2 grid place-content-center">
             <RandomQuote refreshKey={refreshKey}/>

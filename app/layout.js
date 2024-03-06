@@ -13,7 +13,10 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${raleway.className}`}>
 
-        {children}
+      <section className="h-screen overflow-hidden">
+          {children}
+      </section>
+
 
       </body>
     </html>

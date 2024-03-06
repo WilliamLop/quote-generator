@@ -24,12 +24,9 @@ const Quotes = ({ params }) => {
         }
     }, [quotes]);
 
-
-    console.log(quotes)
-
     return (
 
-        <section className="relative h-screen">
+        <section className="relative h-full overflow-y-auto">
 
             <article className="py-16 grid gap-10">
             {loading &&
